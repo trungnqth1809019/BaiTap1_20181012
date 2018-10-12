@@ -11,7 +11,7 @@ int kiemtra(int ik) {
 }
 
 float tinhch(int ia, int ib) {
-    return (float) sqrt(ia * ia + ib * ib);
+    return (float) sqrt(pow(ia, 2) + pow(ib, 2));
 }
 
 int main() {
